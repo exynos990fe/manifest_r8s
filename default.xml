@@ -1,5 +1,5 @@
 <manifest>
-  <remote name="lineage" fetch="http://github.com/LineageOS" revision="lineage-22.2"/>
+  <remote name="linux4" fetch="http://github.com/LineageOS" revision="lineage-22.2"/>
   <remote name="exy" fetch="https://github.com/exynos990fe" revision="lineage-22.2"/>
 
   <!-- samson device trees -->
