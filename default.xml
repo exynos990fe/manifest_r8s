@@ -3,7 +3,7 @@
   <remote name="exy" fetch="https://github.com/exynos990fe" revision="lineage-22.2"/>
 
   <!-- samson device trees -->
-  <project path="device/samsung/r8s" name="android_device_samsung_gta4xl" remote="objectfigure"/>
+  <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exy"/>
   <project path="device/samsung/gta4xl-common" name="android_device_samsung_gta4xl-common" remote="linux4"/>
 
   <!-- samson kernel tree -->
