@@ -4,14 +4,14 @@
 
   <!-- samson device trees -->
   <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exy"/>
-  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="linux4"/>
+  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exy"/>
 
   <!-- samson kernel tree -->
   <project path="kernel/samsung/gta4xl" name="android_kernel_samsung_gta4xl" remote="linux4"/>
 
   <!-- samson vendor trees -->
-  <project path="vendor/samsung/r8s" name="android_vendor_samsung_gta4xl" remote="linux4"/>
-  <project path="vendor/samsung/gta4xl-common" name="android_vendor_samsung_gta4xl-common" remote="linux4"/>
+  <project path="vendor/samsung/r8s" name="android_vendor_samsung_gta4xl" remote="exy"/>
+  <project path="vendor/samsung/gta4xl-common" name="android_vendor_samsung_gta4xl-common" remote="exy"/>
 
   <!-- Hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4"/>
