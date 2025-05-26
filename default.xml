@@ -7,7 +7,7 @@
   <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exy"/>
 
   <!-- samson kernel tree -->
-  <project path="kernel/samsung/universal9830" name="990_upstream" remote="linux4"/>
+  <project path="kernel/samsung/universal9830" name="990_upstream" remote="exy"/>
 
   <!-- samson vendor trees -->
   <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exy"/>
