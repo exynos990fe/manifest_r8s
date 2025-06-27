@@ -14,7 +14,7 @@
   <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exy"/>
 
   <!-- Hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4"/>
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="exy"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="LineageOS" />
   <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="LineageOS" />
   <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" />
