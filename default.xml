@@ -1,32 +1,18 @@
 <manifest>
-  <remote name="LineageOS" fetch="https://github.com/LineageOS" revision="lineage-22.2"/>
-  <remote name="exy" fetch="https://github.com/exynos990fe" revision="lineage-22.2"/>
-
-  <!-- samson device trees -->
-  <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exy"/>
-  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exy"/>
-
-  <!-- samson kernel tree -->
-  <project path="kernel/samsung/universal9830" name="990_upstream" remote="exy"/>
-
-  <!-- samson vendor trees -->
-  <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exy"/>
-  <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exy"/>
-
-  <!-- Hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="exy"/>
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="LineageOS" />
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS" />
-
-  <!-- SEPolicy -->
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" />
-
+  <project path="device/samsung/r8s" name="exynos990fe/android_device_samsung_r8s" revision="lineage-22.2"/>
+  <project path="device/samsung/universal9830-common" name="exynos990fe/android_device_samsung_universal9830-common" revision="lineage-22.2"/>
+  <project path="kernel/samsung/universal9830" name="exynos990fe/990_upstream" revision="lineage-22.2"/>
+  <project path="vendor/samsung/r8s" name="exynos990fe/proprietary_vendor_samsung_r8s" revision="lineage-22.2"/>
+  <project path="vendor/samsung/universal9830-common" name="exynos990fe/proprietary_vendor_samsung_universal9830-common" revision="lineage-22.2"/>
+  <project path="hardware/samsung" name="exynos990fe/android_hardware_samsung" revision="lineage-22.2"/>
+  <project path="hardware/samsung_slsi-linaro/exynos" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" revision="lineage-22.2" />
+  <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" revision="lineage-22.2" />
 </manifest>
-
