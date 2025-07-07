@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<manifest>
+
 <remote fetch="https://github.com/LineageOS"
         name="LineageOS"
         revision="lineage-22.2" />
@@ -8,14 +10,13 @@
         name="exynos990fe"
         revision="lineage-22.2" />
 
-<manifest>
   <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exynos990fe"/>
   <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exynos990fe"/>
   <project path="kernel/samsung/universal9830" name="990_upstream" remote="exynos990fe"/>
   <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exynos990fe"/>
   <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exynos990fe"/>
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="exynos990fe"/>
-
+  
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="LineageOS" />
   <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="LineageOS" />
   <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" />
