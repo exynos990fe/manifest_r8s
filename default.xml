@@ -10,6 +10,10 @@
         name="exynos990fe"
         revision="lineage-22.2" />
 
+ <remote fetch="https://github.com/LineageOS"
+        name="Lineage"
+        revision="lineage-22.2" />
+        
   <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exynos990fe"/>
   <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exynos990fe"/>
   <project path="kernel/samsung/universal9830" name="990_upstream_v2" remote="exynos990fe"/>
@@ -26,5 +30,5 @@
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS_Origin" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS_Origin" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS_Origin" />
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS_Origin" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Lineage" />
 </manifest>
