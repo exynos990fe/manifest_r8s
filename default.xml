@@ -4,7 +4,7 @@
 
 <remote fetch="https://github.com/evolution-x-devices"
         name="LineageOS_Origin"
-        revision="lineage-22.2" />
+        revision="bka" />
 
 <remote fetch="https://github.com/exynos990fe"
         name="exynos990fe"
