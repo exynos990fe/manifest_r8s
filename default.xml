@@ -6,7 +6,7 @@
         name="LineageOS_Origin"
         revision="lineage-22.2" />
 
-<remote fetch="https://github.com/exynos990fe"
+<remote fetch="https://github.com/Evolution-x-devices"
         name="exynos990fe"
         revision="lineage-22.2" />
 
