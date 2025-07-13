@@ -1,6 +1,6 @@
 <manifest>
   <project path="device/samsung/r8s" name="exynos990fe/android_device_samsung_r8s" revision="lineage-22.2"/>
-  <project path="device/samsung/universal9830-common" name="crdroidandroid/android_device_samsung_universal9830-common" revision="lineage-22.2"/>
+  <project path="device/samsung/universal9830-common" name="crdroidandroid/android_device_samsung_universal9830-common" revision="15.0"/>
   <project path="kernel/samsung/universal9830" name="exynos990fe/990_upstream" revision="lineage-22.2"/>
   <project path="vendor/samsung/r8s" name="exynos990fe/proprietary_vendor_samsung_r8s" revision="lineage-22.2"/>
   <project path="vendor/samsung/universal9830-common" name="exynos990fe/proprietary_vendor_samsung_universal9830-common" revision="lineage-22.2"/>
