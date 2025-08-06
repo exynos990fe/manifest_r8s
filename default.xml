@@ -3,7 +3,7 @@
 <manifest>
 
 <remote fetch="https://github.com/evolution-x-devices"
-        name="LineageOS_Origin"
+        name="evo"
         revision="bka" />
 
 <remote fetch="https://github.com/exynos990fe"
@@ -14,21 +14,21 @@
         name="Lineage"
         revision="lineage-22.2" />
         
-  <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exynos990fe"/>
-  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exynos990fe"/>
-  <project path="kernel/samsung/universal9830" name="990_upstream_v2" remote="exynos990fe"/>
+  <project path="device/samsung/r8s" name="device_samsung_r8s" remote="evo"/>
+  <project path="device/samsung/universal9830-common" name="device_samsung_universal9830-common" remote="evo"/>
+  <project path="kernel/samsung/universal9830" name="kernel_samsung_universal9830" remote="evo"/>
   <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exynos990fe"/>
   <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exynos990fe"/>
   
-  <project path="hardware/samsung" name="hardware_samsung" remote="LineageOS_Origin"/>
-  <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="hardware_samsung_slsi-linaro_interfaces" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="hardware_samsung_slsi-linaro_exynos5" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi-linaro/config" name="hardware_samsung_slsi-linaro_config" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi/libbt" name="hardware_samsung_slsi_libbt" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS_Origin" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS_Origin" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="evo"/>
+  <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="evo" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="evo" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="evo" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="hardware_samsung_slsi-linaro_interfaces" remote="evo" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="hardware_samsung_slsi-linaro_exynos5" remote="evo" />
+  <project path="hardware/samsung_slsi-linaro/config" name="hardware_samsung_slsi-linaro_config" remote="evo" />
+  <project path="hardware/samsung_slsi/libbt" name="hardware_samsung_slsi_libbt" remote="evo" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="evo" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="evo" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Lineage" />
 </manifest>
