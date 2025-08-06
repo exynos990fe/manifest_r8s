@@ -20,7 +20,7 @@
   <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exynos990fe"/>
   <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exynos990fe"/>
   
-  <project path="hardware/samsung" name="hardware_samsung" remote="evo"/>
+  <project path="hardware/samsung" name="hardware_samsung" remote="evoxl"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="evoxl" />
   <project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="evoxl" />
   <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="evoxl" />
