@@ -8,17 +8,17 @@
 
 <remote fetch="https://github.com/exynos990fe"
         name="exynos990fe"
-        revision="lineage-22.2" />
+        revision="pixelos" />
 
  <remote fetch="https://github.com/LineageOS"
         name="Lineage"
         revision="lineage-22.2" />
         
-  <project path="device/samsung/r8s" name="device_samsung_r8s" remote="evoxl"/>
+  <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exynos990fe"/>
   <project path="device/samsung/universal9830-common" name="device_samsung_universal9830-common" remote="evoxl"/>
   <project path="kernel/samsung/universal9830" name="kernel_samsung_universal9830" remote="evoxl"/>
-  <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exynos990fe"/>
-  <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exynos990fe"/>
+  <project path="vendor/samsung/r8s" name="vendor_samsung_r8s" remote="evoxl"/>
+  <project path="vendor/samsung/universal9830-common" name="vendor_samsung_universal9830-common" remote="evoxl"/>
   
   <project path="hardware/samsung" name="hardware_samsung" remote="evoxl"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="evoxl" />
