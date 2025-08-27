@@ -7,20 +7,20 @@
         revision="bka" />
 
 <remote fetch="https://github.com/exynos990fe"
-        name="exynos990fe"
+        name="exy"
         revision="lineage-22.2" />
 
  <remote fetch="https://github.com/LineageOS"
         name="Lineage"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
         
-  <project path="device/samsung/r8s" name="device_samsung_r8s" remote="evoxl"/>
-  <project path="device/samsung/universal9830-common" name="device_samsung_universal9830-common" remote="evoxl"/>
-  <project path="kernel/samsung/universal9830" name="kernel_samsung_universal9830" remote="evoxl"/>
-  <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exynos990fe"/>
-  <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exynos990fe"/>
+  <project path="device/samsung/r8s" name="android_device_samsung_r8s" remote="exy"/>
+  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common" remote="exy"/>
+  <project path="kernel/samsung/universal9830" name="kernel_samsung_9830" remote="exy"/>
+  <project path="vendor/samsung/r8s" name="proprietary_vendor_samsung_r8s" remote="exy"/>
+  <project path="vendor/samsung/universal9830-common" name="proprietary_vendor_samsung_universal9830-common" remote="exy"/>
   
-  <project path="hardware/samsung" name="hardware_samsung" remote="evoxl"/>
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="Lineage"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="evoxl" />
   <project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="evoxl" />
   <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="evoxl" />
@@ -30,5 +30,5 @@
   <project path="hardware/samsung_slsi/libbt" name="hardware_samsung_slsi_libbt" remote="evoxl" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="evoxl" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="evoxl" />
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Lineage" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="evoxl" />
 </manifest>
