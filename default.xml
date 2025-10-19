@@ -8,7 +8,7 @@
 
 <remote fetch="https://github.com/exynos990fe"
         name="exy"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
  <remote fetch="https://github.com/LineageOS"
         name="Lineage"
